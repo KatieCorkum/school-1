@@ -10,7 +10,7 @@ int val;    // variable to read the value from the analog pin
 int angle;
 void setup() {
   myservo.attach(9);  // attaches the servo on pin 9 to the servo object
-  pinMode(buttonpin,INPUT_PULLUP);
+  pinMode(buttonpin,INPUT_PULLUP); //What is the difference between INPUT and INPUT_PULLUP? -Katie Corkum
 }
 
 
